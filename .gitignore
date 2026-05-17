@@ -1,9 +1,23 @@
+*.db
 *.py[cod]
+assets/external/
 .states
 .web
-*.db
-assets/external/
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+.venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Reflex
 .web/
 .states/
-__pycache__/
-/app/__pycache__/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -37,6 +37,19 @@ class ContentState(rx.State):
     new_before_image: str = ""
     new_after_image: str = ""
 
+
+    @rx.event
+    def set_new_title(self, value: str):
+        self.new_title = value
+
+    @rx.event
+    def set_new_category(self, value: str):
+        self.new_category = value
+
+    @rx.event
+    def set_new_status(self, value: str):
+        self.new_status = value
+        
     @rx.event
     def set_new_before_image(self, value: str):
         self.new_before_image = value
