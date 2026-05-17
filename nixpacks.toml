@@ -1,5 +1,2 @@
-[build]
-builder = "nixpacks"
-
 [phases.setup]
-aptPkgs = ["unzip"]
+aptPkgs = ["unzip", "curl", "wget"]
